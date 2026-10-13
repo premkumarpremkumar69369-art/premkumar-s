@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Forces container to match image size */
+}
+
+/* Ensure the image behaves properly */
+.image-container img {
+  display: block;
+  width: 100%; /* Responsive sizing */
+  height: auto;
+}
+
+/* The text overlay positioned over the image */
+.text-overlay {
+  position: absolute;
+  color: white; /* Make text readable against dark backgrounds */
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adds a drop shadow for extra readability */
+  
+  /* POSITIONING OPTIONS (Choose one from the list below) */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Perfectly center the text */
+}
+</style>
+<body>
+ <div class="image-container">
+  <img src="your-image.jpg" alt="Background">
+  <div class="text-overlay">Your Text Goes Here</div>
+ </div>
+
+</body>
+</html>
