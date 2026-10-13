@@ -62,7 +62,7 @@ nav ul li a{
 /* home page */
 .hero{
     margin: 20px;
-    width: 100%;
+    width: 98%;
     background-attachment: fixed;
     overflow: hidden;
 }
@@ -168,7 +168,7 @@ nav ul li a{
     margin-top: 40px;
     display: flex;
     height: 550px;
-    max-width: 800px;
+    max-width: 900px;
     margin-bottom: 40px;
 }
 .left-section{
@@ -250,11 +250,13 @@ input{
     justify-content:center;
     margin-left: 155px;
     margin-bottom: 20px;
+    margin-top:-30px ;
 }
 .divider{
     color: grey;
     text-align: center;
     margin-right: 105px;
+    margin-top: -20px;
 }
 .signup-text{
     display: flex;
