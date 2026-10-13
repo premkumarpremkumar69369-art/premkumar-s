@@ -793,7 +793,7 @@ aside h2{
 /* Laptop - 1200px */
 @media screen and (max-width: 1200px){
   .hero{
-    width: 100%;
+    width: 1200px;
   }
   .hero h1{
     width: 80%;
